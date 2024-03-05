@@ -1,2 +1,2 @@
 # Flipper-Firmware
-Multifunctional private firmware for flipper-zero device
+Multifunctional paid firmware for flipper-zero device.
