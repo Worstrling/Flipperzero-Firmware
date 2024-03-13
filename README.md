@@ -1,5 +1,5 @@
-# Flipper-Firmware
-Мультифункциональная прошивка для устройства Flipper-Zero  
-Презентация проекта:  
-[![Видео](https://img.youtube.com/vi/3OnWUNHOXxg/0.jpg)](https://youtu.be/3OnWUNHOXxg)
-
+<p align="center">
+  <a href="https://youtu.be/3OnWUNHOXxg">
+    <img src="https://img.youtube.com/vi/3OnWUNHOXxg/0.jpg" alt="Видео">
+  </a>
+</p>
