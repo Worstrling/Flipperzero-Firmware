@@ -1,2 +1,4 @@
 # Flipper-Firmware
-Multifunctional paid firmware for flipper-zero device.
+Мультифункциональная прошивка для устройства Flipper-Zero
+Презентация проекта:
+https://youtu.be/3OnWUNHOXxg
