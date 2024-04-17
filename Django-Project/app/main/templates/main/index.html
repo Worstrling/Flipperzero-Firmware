@@ -6,9 +6,10 @@
     <title>{{ title }}</title>
 </head>
 <body>
-<p>{{ content }}</p>
-<p>{{ list.0 }}</p>
-<p>{{ dict.first }}</p>
-<p>{{ bool }}</p>
+    <p>{{ content }}</p>
+    {% if is_auth %}
+        <p>{{ list.0 }}</p>
+    {% endif %}
+
 </body>
 </html>
