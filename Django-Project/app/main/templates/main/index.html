@@ -1,15 +1,18 @@
-<!DOCTYPE html>
-<html lang = "en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device=width, initial-scale=1.0">
-    <title>{{ title }}</title>
-</head>
-<body>
-    <p>{{ content }}</p>
-    {% if is_auth %}
-        <p>{{ list.0 }}</p>
-    {% endif %}
+{% extends "main/base.html " %}
+{% load static %}
 
-</body>
-</html>
+{% block css %}
+    <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5 pt-5"><strong>{{ content }}</strong></h1>
+{% endblock %}
+
+{% block footer %}
+    <footer class="py-4 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; HackerZone 2024</p>
+        </div>
+    </footer>
+{% endblock %}
