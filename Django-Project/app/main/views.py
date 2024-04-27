@@ -7,13 +7,9 @@ from goods.models import Categories
 
 
 def index(request) -> HttpResponse:
-
-    categories = Categories.objects.all()
-
     context: dict[str, Any] = {
         'title': 'Главная',
         'content': 'Магазин программного обеспечения - HackerZone',
-        'categories': categories
     }
     return render(request, 'main/index.html', context)
 
