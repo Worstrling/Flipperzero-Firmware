@@ -1,4 +1,4 @@
-{% extends 'main/base.html' %}
+{% extends 'base.html' %}
 {% load static %}
 {% load goods_tags %}
 
@@ -50,6 +50,7 @@
             </form>
         </div>
         {% if request.GET.q %}
+            <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
             <h3 class="mt-4">Результаты поиска по запросу</h3>
         {% if not goods %}
             <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
@@ -80,9 +81,9 @@
                         <p class="card-text">
                             {% autoescape off %}
                                 {% if product.bodyline %}
-                                    {{ product.bodyline|truncatechars:100 }}
+                                    {{ product.bodyline|truncatechars:80 }}
                                 {% else %}
-                                    {{ product.description|truncatechars:55 }}
+                                    {{ product.description|truncatechars:50 }}
                                 {% endif %}
                             {% endautoescape %}
                         </p>
