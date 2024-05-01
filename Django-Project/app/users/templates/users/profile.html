@@ -89,9 +89,11 @@
                             {% include "carts/includes/included_cart.html" %}
                             <!-- Закончилась разметка корзины -->
                         </div>
-                        <a class="btn btn-dark" href="{% static "orders/create_order.html" %}">
+                        {% if carts %}
+                        	<a class="btn btn-dark" href="{% static "orders/create_order.html" %}">
                             Оформить заказ
                         </a>
+                        {% endif %}
                     </div>
                 </div>
                 <!-- Оформленные заказы -->
