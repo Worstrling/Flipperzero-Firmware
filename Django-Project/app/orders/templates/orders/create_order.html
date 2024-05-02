@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load carts_tags %}
+
+{% block content %}
+    <div class=" bg-white p-4 mb-4 mx-2 rounded custom-shadow">
+        <div class="container">
+            <h3 class="text-center mb-4">Выбранные товары</h3>
+            <div class="container" id="cart-items-container">
+                <!-- Разметка корзины -->
+                {% user_carts request as carts %}
+                {% include 'carts/includes/included_cart.html' %}
+                <!-- Закончилась разметка корзины -->
+            </div>
+        </div>
+        <!-- Детали заказа -->
+        <div class="container">
+            <h3 class="text-center">Детали заказа</h3>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <form action="{% url 'orders:create_order' %}" method="post">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label for="id_email" class="form-label">Email*:</label>
+                                <input type="text" class="form-control" id="id_email"
+                                       value="{% if form.email.value %}{{ form.email.value }}{% endif %}"
+                                       name="email">
+                                       {% if form.email.errors %}
+                                       	    <div class="alert alert-danger alert-dismissible fade show">Оишбка</div>
+                                       {% endif %}
+                            </div>
+                            <button type="submit" class="btn btn-dark">Оформить заказ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
