@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: root
+    ports:
+      - "5433:5432"
+
+  django-app:
+    container_name: app
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    environment:
+      DEBUG: False
+      DB_NAME: 'root'
+      DB_USER: 'root'
+      DB_PASSWORD: 'root'
+      DB_HOST: 'postgres'
+      DB_PORT: 5433
+      SECRET_KEY: 'django-insecure-c=^(1v_ckt66!$&lkrzlg8zr%+pu(5wvc3_x+b$hlf&j46qi!l'
