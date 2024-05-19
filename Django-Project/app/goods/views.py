@@ -1,7 +1,8 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_list_or_404
-
-from goods.models import Products
+from rest_framework import viewsets
+from goods.models import Products, Categories
+from goods.serializers import CategoriesSerializer, ProductsSerializer
 from goods.utils import q_search
 
 
@@ -42,3 +43,15 @@ def product(request, product_slug):
         'product': product
     }
     return render(request, 'goods/product.html', context=context)
+
+
+# -----------------api-----------------
+
+class CategoryApiView(viewsets.ModelViewSet):
+    serializer_class = CategoriesSerializer
+    queryset = Categories.objects.all()
+
+
+class ProductApiView(viewsets.ModelViewSet):
+    serializer_class = ProductsSerializer
+    queryset = Products.objects.all()

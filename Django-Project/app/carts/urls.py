@@ -14,14 +14,23 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 
 from carts import views
+from carts.views import CartsApiView
 
 app_name = 'carts'
+
+router = DefaultRouter()
+router.register(r"carts/", viewset=CartsApiView, basename='cart')
 
 urlpatterns = [
     path('cart_add/', views.cart_add, name='cart_add'),
     path('cart_change/', views.cart_change, name='cart_change'),
     path('cart_remove/', views.cart_remove, name='cart_remove'),
+]
+
+urlpatterns += [
+    path('', include(router.urls)),
 ]

@@ -4,10 +4,13 @@ from django.db.models import Prefetch
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.urls import reverse
+from rest_framework import viewsets
 
 from carts.models import Cart
 from orders.models import Order, OrderItem
 from users.forms import UserLoginForm, UserRegistrationForm, ProfileForm
+from users.models import User
+from users.serializers import UsersSerializer
 
 
 def login(request):
@@ -87,7 +90,7 @@ def profile(request):
         .prefetch_related(
             Prefetch(
                 'orderitem_set',
-                queryset=OrderItem.objects.select_related('product',)
+                queryset=OrderItem.objects.select_related('product', )
             )
         )
         .order_by('-id')
@@ -105,3 +108,8 @@ def logout(request):
     messages.success(request, f'{request.user.username} Вы успешно вышли из аккаунта')
     auth.logout(request)
     return redirect(reverse('main:index'))
+
+
+class UsersApiView(viewsets.ModelViewSet):
+    serializer_class = UsersSerializer
+    queryset = User.objects.all()

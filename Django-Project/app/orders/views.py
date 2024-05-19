@@ -3,10 +3,12 @@ from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
 from django.db import transaction
 from django.shortcuts import render, redirect
+from rest_framework import viewsets
 
 from carts.models import Cart
 from orders.forms import CreateOrderForm
 from orders.models import Order, OrderItem
+from orders.serializers import OrderItemsSerializer, OrdersSerializer
 
 
 @login_required
@@ -63,3 +65,15 @@ def create_order(request):
         'order': True,
     }
     return render(request, 'orders/create_order.html', context=context)
+
+
+# -----------------api-----------------
+
+class OrdersApiView(viewsets.ModelViewSet):
+    serializer_class = OrdersSerializer
+    queryset = Order.objects.all()
+
+
+class OrderItemsApiView(viewsets.ModelViewSet):
+    serializer_class = OrderItemsSerializer
+    queryset = OrderItem.objects.all()

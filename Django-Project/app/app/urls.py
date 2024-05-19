@@ -27,6 +27,11 @@ urlpatterns = [
     path('user/', include('users.urls', namespace='user')),
     path('cart/', include('carts.urls', namespace='cart')),
     path('orders/', include('orders.urls', namespace='orders')),
+    path('api-auth/', include('rest_framework.urls')),
+    path('goods_api/', include('goods.urls')),
+    path('orders_api/', include('orders.urls')),
+    path('users_api/', include('users.urls')),
+    path('carts_api/', include('carts.urls')),
 ]
 
 if settings.DEBUG:
