@@ -1,3 +1,5 @@
+import os
+
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.core.exceptions import ValidationError
@@ -9,6 +11,23 @@ from carts.models import Cart
 from orders.forms import CreateOrderForm
 from orders.models import Order, OrderItem
 from orders.serializers import OrderItemsSerializer, OrdersSerializer
+
+import smtplib
+
+
+def send_email(message, send_email):
+    for i in range(1):
+        sender = 'gamera078@gmail.com'
+        password = os.getenv('EMAIL_PASSWORD')
+
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+
+        try:
+            server.login(sender, password)
+            server.sendmail(sender, send_email, message)
+        except Exception as ex:
+            print(f'{ex}\nCheck your email or password!')
 
 
 @login_required
@@ -26,6 +45,8 @@ def create_order(request):
                             user=user,
                             send_email=form.cleaned_data['email']
                         )
+                        send_email('Спасибо что оформили заказ', form.cleaned_data['email'])
+                        print(form.cleaned_data['email'])
                         for cart_item in cart_items:
                             product = cart_item.product
                             name = cart_item.product.name
@@ -64,6 +85,7 @@ def create_order(request):
         'form': form,
         'order': True,
     }
+
     return render(request, 'orders/create_order.html', context=context)
 
 
