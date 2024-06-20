@@ -23,3 +23,7 @@
 
 - [Видеобзор ТЗ](https://www.youtube.com/watch?v=3OnWUNHOXxg)
 - [Презентация](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
+
+## Проект
+
+- http://hack3rz0n3shop.ru
