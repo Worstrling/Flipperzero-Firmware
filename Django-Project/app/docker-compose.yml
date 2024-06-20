@@ -20,7 +20,7 @@ services:
     depends_on:
       - postgres
     environment:
-      DEBUG: False
+      DEBUG: True
       DB_NAME: 'root'
       DB_USER: 'root'
       DB_PASSWORD: 'root'

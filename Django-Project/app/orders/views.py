@@ -45,7 +45,7 @@ def create_order(request):
                             user=user,
                             send_email=form.cleaned_data['email']
                         )
-                        send_email('Спасибо что оформили заказ', form.cleaned_data['email'])
+                        send_email('Thank you for order', form.cleaned_data['email'])
                         print(form.cleaned_data['email'])
                         for cart_item in cart_items:
                             product = cart_item.product

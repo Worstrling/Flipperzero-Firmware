@@ -20,7 +20,7 @@ class Order(models.Model):
                              verbose_name='Пользователь')
     created_timestamp = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания заказа')
     is_paid = models.BooleanField(default=False, verbose_name='Оплачено')
-    status = models.CharField(max_length=50, default='В обработке', verbose_name='Статус заказа')
+    status = models.CharField(max_length=50, default='Оплачен', verbose_name='Статус заказа')
     send_email = models.EmailField(max_length=254, blank=True, null=True, verbose_name='Email отправки')
 
     class Meta:
