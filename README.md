@@ -26,4 +26,4 @@
 
 ## Проект
 
-- http://hack3rz0n3shop.ru
+- https://hack3rz0n3shop.ru
