@@ -12,23 +12,27 @@
   
 ## Описание проекта:
 
-Сервис для распостранения многофункциональных прошивок для устройства "Flipper Zero" и других хакерских утилит.
+![image](https://github.com/user-attachments/assets/2148ba7a-6115-4b62-83b5-4dc350270418) Сервис для распостранения многофункциональных прошивок для устройства "Flipper Zero" и других хакерских утилит.
 
 ## Ресурсы проекта:
 
-- [Miro](#)
-- [Figma](#)
-- [Youtrack](https://nikitakhmelevskoy.youtrack.cloud/projects/6ad76b5d-eadd-42c3-858f-332b5bba082e)
-- [Яндекс Метрика](https://metrika.yandex.ru/dashboard?id=97628804)
+![image](https://github.com/user-attachments/assets/949583c5-ed33-4b62-9a46-2310d9c2e659) [Miro](#)
+  
+![image](https://github.com/user-attachments/assets/df61c9ac-3101-4680-9b01-b363193f990d) [Figma](#)
+
+![image](https://github.com/user-attachments/assets/77b9528c-0283-4a51-869d-34c4567a0c20) [Youtrack](https://nikitakhmelevskoy.youtrack.cloud/projects/6ad76b5d-eadd-42c3-858f-332b5bba082e)
+
+![image](https://github.com/user-attachments/assets/92a178a7-7737-471b-89da-d2aeb979fed8) [Яндекс Метрика](https://metrika.yandex.ru/dashboard?id=97628804)
 
 ## Техническая документация:
 
-- [Техническое задание](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%A2%D0%B5%D1%85.%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)
+![image](https://github.com/user-attachments/assets/af8aef75-3ae4-4c65-8d2c-3c8cfbdf4ed3) [Техническое задание](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%A2%D0%B5%D1%85.%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5)
 
 ## Защита проекта:
 
-- [Видеобзор продукта](https://www.youtube.com/watch?v=3OnWUNHOXxg)
-- [Презентация продукта](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
+![image](https://github.com/user-attachments/assets/99369ebb-0731-4a47-9c34-cc7bf539a86b) [Видеобзор продукта](https://www.youtube.com/watch?v=3OnWUNHOXxg)
+
+![image](https://github.com/user-attachments/assets/320ac85c-7cb5-48f4-8c29-ee93e4e2b375) [Презентация продукта](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
 
 ## Результат проекта:
 
