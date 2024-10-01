@@ -6,9 +6,11 @@
 
 ## Студенты:
 
-- [Хмелевской Никита Алексеевич](https://github.com/nikitakhmelevskoy) - Teamlead, Producr Owner, Analyst
-- [Ларин Андрей Денисович](https://github.com/Worstrling) - Software Engineer, DevOps
-- [Самарин Дмитрий Азизович](https://github.com/dimonlime) - Full Stack Developer
+![image](https://github.com/user-attachments/assets/fb287216-f3bd-4012-b0db-61c19104e69e) [Хмелевской Никита Алексеевич](https://github.com/nikitakhmelevskoy) - Teamlead, Producr Owner, Analyst
+
+![image](https://github.com/user-attachments/assets/6e99ef64-7faa-4913-95df-a42cd255c794) [Ларин Андрей Денисович](https://github.com/Worstrling) - Software Engineer, DevOps
+
+![image](https://github.com/user-attachments/assets/248a0dd0-2f32-4679-84fe-781f5e909745) [Самарин Дмитрий Азизович](https://github.com/dimonlime) - Full Stack Developer
   
 ## Описание проекта:
 
