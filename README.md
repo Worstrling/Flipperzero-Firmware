@@ -1,19 +1,26 @@
 # Многофункциональная прошивка для устройства “Flpper Zero”
 
+##
+
+ТП 2-2
+
 ## Студенты:
 
-- [Хмелевской Никита Алексеевич](https://github.com/nikitakhmelevskoy) - Тимлид, Бизнес-аналитик.
-- [Ларин Андрей Денисович](https://github.com/Worstrling) - Backend firmware, системный администратор.
-- [Самарин Дмитрий Азизович](https://github.com/dimonlime) - Web разработчик.
+- [Хмелевской Никита Алексеевич](https://github.com/nikitakhmelevskoy) - Teamlead, Бизнес-аналитик.
+- [Ларин Андрей Денисович](https://github.com/Worstrling) - Software Engineer, системный администратор.
+- [Самарин Дмитрий Азизович](https://github.com/dimonlime) - Full Stack Developer.
 
 ## Описание проекта
 
-Прошивка для устройства Flipper Zero, для анализа и подбора частотых сигналов.
+Сервис с прошивками для многофункционального устройства Flipper Zero, а также другими "хакерскими" утилитами.
+Проект содержит сервис на котором прежоставлены хакерские утилиты с целью приоберетения их потенциальным клиентом.
 
 ## Сервисы
 
 - [Figma](#)
 - [Youtrack](https://nikitakhmelevskoy.youtrack.cloud/projects/6ad76b5d-eadd-42c3-858f-332b5bba082e)
+- [Яндекс Метрика](https://metrika.yandex.ru/dashboard?id=97628804).
+![image](https://github.com/user-attachments/assets/bbbbc87e-fa66-4355-b44b-d50dd52d0d73)
 
 ## Документация
 
