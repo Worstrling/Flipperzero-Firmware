@@ -27,8 +27,8 @@
 
 ## Защита проекта:
 
-- [Видеобзор ТЗ](https://www.youtube.com/watch?v=3OnWUNHOXxg)
-- [Презентация](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
+- [Видеобзор продукта](https://www.youtube.com/watch?v=3OnWUNHOXxg)
+- [Презентация продукта](https://github.com/Worstrling/Flipperzero-Firmware/tree/main/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
 
 ## Результат проекта:
 
@@ -40,7 +40,7 @@
 ![image](https://github.com/user-attachments/assets/e22c5e66-0776-4bda-92ba-a76002cc9b6e)
 ![image](https://github.com/user-attachments/assets/6368c2aa-48d5-4d0d-b999-56260b241c6a)
 
-## Интерфейс:
+## Основные элементы интерфейса продукта:
 
 ![image](https://github.com/user-attachments/assets/bb21fd90-59f4-4cf9-b78f-574ababd7d4c)
 ![image](https://github.com/user-attachments/assets/9adf47e0-33ad-4d9b-a3f1-bf843e22e5da)
