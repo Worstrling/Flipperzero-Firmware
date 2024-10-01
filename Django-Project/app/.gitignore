@@ -7,3 +7,6 @@ __pycache__/
 db.sqlite3
 media
 static
+
+/app/conf/certificate.crt
+/app/conf/private.key
