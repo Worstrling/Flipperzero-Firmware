@@ -42,7 +42,14 @@
 
 ## Результат проекта:
 
-### ![image](https://github.com/user-attachments/assets/2148ba7a-6115-4b62-83b5-4dc350270418) https://hack3rz0n3shop.ru /Вход в учётную запись для ADMIN: login: root/ password: root. Для user: создать своего пользователя с произвольным login/password.
+### ![image](https://github.com/user-attachments/assets/2148ba7a-6115-4b62-83b5-4dc350270418) https://hack3rz0n3shop.ru 
+### Вход в учётную запись:
+Для ADMIN: login: root / password: root 
+
+Для User: создать своего пользователя с произвольным login / password.
+Example exists user: login: test1 / password: Testproj_
+
+При создании учётной записи пароль должен включать символы верхнего/нижнего регистра и спецсимволы
 
 ## Метрика:
 
