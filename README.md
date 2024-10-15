@@ -42,7 +42,7 @@
 
 ## Результат проекта:
 
-### ![image](https://github.com/user-attachments/assets/2148ba7a-6115-4b62-83b5-4dc350270418) https://hack3rz0n3shop.ru
+### ![image](https://github.com/user-attachments/assets/2148ba7a-6115-4b62-83b5-4dc350270418) https://hack3rz0n3shop.ru /Вход в учётную запись для ADMIN: login: root/ password: root. Для user: создать своего пользователя с произвольным login/password.
 
 ## Метрика:
 
