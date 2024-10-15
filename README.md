@@ -40,6 +40,7 @@
 ## Демонстрация результатов проекта:
 
 ### ![image](https://github.com/user-attachments/assets/2148ba7a-6115-4b62-83b5-4dc350270418) https://hack3rz0n3shop.ru 
+
 ### Вход в учётную запись:
 
 Для администратора:
@@ -53,20 +54,20 @@ login: test1 / password: Testproj_
 Создать нового пользователя с произвольным login / password
 При создании учётной записи необходимо учитывать, что пароль должен включать символы верхнего/нижнего регистра и спецсимволы
 
-## Метрика:
+### Метрика:
 
 ![image](https://github.com/user-attachments/assets/94217fc5-0f45-47d3-9d57-1f881f6c7f89)
 ![image](https://github.com/user-attachments/assets/e22c5e66-0776-4bda-92ba-a76002cc9b6e)
 ![image](https://github.com/user-attachments/assets/6368c2aa-48d5-4d0d-b999-56260b241c6a)
 
-## Основные элементы интерфейса продукта:
+### Основные элементы интерфейса продукта:
 
 ![image](https://github.com/user-attachments/assets/bb21fd90-59f4-4cf9-b78f-574ababd7d4c)
 ![image](https://github.com/user-attachments/assets/9adf47e0-33ad-4d9b-a3f1-bf843e22e5da)
 ![image](https://github.com/user-attachments/assets/d51b52b2-9d92-4b67-b1a4-4ea066247673)
 ![image](https://github.com/user-attachments/assets/8cbe7c7b-e476-44b5-906a-00f074790998)
 
-## Результат отправки прошивки:
+### Результат отправки прошивки:
 ![image](https://github.com/user-attachments/assets/5879eb51-d7df-4139-bc4e-8297fcfd7272)
 
 
