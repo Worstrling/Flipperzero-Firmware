@@ -62,5 +62,10 @@ Example exists user: login: test1 / password: Testproj_
 ![image](https://github.com/user-attachments/assets/bb21fd90-59f4-4cf9-b78f-574ababd7d4c)
 ![image](https://github.com/user-attachments/assets/9adf47e0-33ad-4d9b-a3f1-bf843e22e5da)
 ![image](https://github.com/user-attachments/assets/d51b52b2-9d92-4b67-b1a4-4ea066247673)
+![image](https://github.com/user-attachments/assets/8cbe7c7b-e476-44b5-906a-00f074790998)
+
+## Результат отправки прошивки:
+![image](https://github.com/user-attachments/assets/5879eb51-d7df-4139-bc4e-8297fcfd7272)
+
 
 
