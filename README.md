@@ -50,7 +50,7 @@
 ### Вход в учётную запись:
 
 Для администратора:
-login: root / password: root
+login: **** / password: ****
 
 Для пользователя: 
 login: test1 / password: Testproj_
