@@ -75,6 +75,6 @@ login: test1 / password: Testproj_
 ### Результат отправки прошивки:
 ![image](https://github.com/user-attachments/assets/5879eb51-d7df-4139-bc4e-8297fcfd7272)
 
-### Видео демонстрация:
+### Видео демонстрация работы прошивки:
 
 [![Watch the video](https://img.youtube.com/vi/dCBLDwQyBTg/hqdefault.jpg)](https://youtu.be/dCBLDwQyBTg?si=sFAGQMtGwsPY1Dlq)
