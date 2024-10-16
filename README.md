@@ -77,4 +77,4 @@ login: test1 / password: Testproj_
 
 ### Видео демонстрация:
 
-[![video](https://img.youtube.com/vi/dCBLDwQyBTg/0.jpg)](https://youtu.be/dCBLDwQyBTg?si=sFAGQMtGwsPY1Dlq)
+[![video]](https://youtu.be/dCBLDwQyBTg?si=sFAGQMtGwsPY1Dlq)
