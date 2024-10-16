@@ -39,7 +39,7 @@
 
 ## Защита проекта:
 
-![image](https://github.com/user-attachments/assets/99369ebb-0731-4a47-9c34-cc7bf539a86b) [Видеобзор продукта](https://www.youtube.com/watch?v=3OnWUNHOXxg)
+![image](https://github.com/user-attachments/assets/99369ebb-0731-4a47-9c34-cc7bf539a86b) [Видеобзор продукта](https://youtu.be/dCBLDwQyBTg?si=sFAGQMtGwsPY1Dlq)
 
 ![image](https://github.com/user-attachments/assets/320ac85c-7cb5-48f4-8c29-ee93e4e2b375) [Презентация продукта](https://github.com/Worstrling/Flipperzero-Firmware/blob/main/upd.%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20Flipper-Zero.pdf)
 
@@ -75,6 +75,5 @@ login: test1 / password: Testproj_
 ### Результат отправки прошивки:
 ![image](https://github.com/user-attachments/assets/5879eb51-d7df-4139-bc4e-8297fcfd7272)
 
-### Видео демонстрация работы прошивки:
-
+### Видеодемонстрация работы прошивки:
 [![Watch the video](https://img.youtube.com/vi/dCBLDwQyBTg/hqdefault.jpg)](https://youtu.be/dCBLDwQyBTg?si=sFAGQMtGwsPY1Dlq)
