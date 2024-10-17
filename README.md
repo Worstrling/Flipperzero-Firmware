@@ -50,7 +50,7 @@
 ### Вход в учётную запись:
 
 Для администратора:
-login: **** / password: ****
+login: root / password: root - заходить только для проверки админ панели
 
 Для пользователя: 
 login: test1 / password: Testproj_
